@@ -1,3 +1,13 @@
+# 0. 목차
+
+[1. 인터넷 네트워크 - IP,TCP,PORT,DNS](https://github.com/MJ054/HTML_study/edit/main/HTTP_basic/readme.md#1-%EC%9D%B8%ED%84%B0%EB%84%B7-%ED%86%B5%EC%8B%A0)<br/>
+[2. URI와 웹 브라우저 요청 흐름](https://github.com/MJ054/HTML_study/edit/main/HTTP_basic/readme.md#1-uriuniform-resource-identifier)<br/>
+[3. HTTP]()
+
+
+
+
+
 # 1. 인터넷 통신
 # 2. IP(인터넷 프로토콜)
 ![image](https://user-images.githubusercontent.com/109513458/180629948-c6f3db2f-021c-4c50-9aee-e450799c7884.png)
@@ -50,6 +60,81 @@
 - 도메인 명을 IP 주소로 변환.
 
 ![image](https://user-images.githubusercontent.com/109513458/180633794-a077c2a3-a699-4cb3-9be3-c82dd72c5045.png)
+
+
+
+--------
+
+
+# 1. URI(Uniform Resource Identifier)
+
+![image](https://user-images.githubusercontent.com/109513458/180635297-9cb5fcc3-b735-4a65-88b8-8d2ad6ac46b0.png)
+![image](https://user-images.githubusercontent.com/109513458/180635304-43f73899-69f1-4567-b805-affd9c4e53ff.png)
+
+## 1.1. 단어 뜻
+1) URL
+- Uniform: 리소스 식별하는 통일된 방식
+- Resource: 자원, URI로 식별할 수 있는 모든 것.(제한 없음)
+- Identifier: 다른 과 구분하는데 필요한 정보
+ 
+2) URL, URN
+- URL-Locator: 리소스가 있는 위치를 지정
+- URN-Name: 리소스에 이름을 부여
+- 위치는 변할 수 있지만, 이름은 변하지 않는다.
+
+## 1.2. URL 분석
+### 1.2.1. 전체 문법
+
+![image](https://user-images.githubusercontent.com/109513458/180635473-e66fbe78-637d-4c7f-b268-3183a1624037.png)
+
+1)scheme
+- 주로 프로토콜 사용
+- 프로토콜: 어떤 방식으로 자원에 접근할 것인가 하는 약속 규칙
+  ex) http, https,ftp 등등
+  
+2)userinfo
+- URL에 사용자 정보를 포함해서 인증
+
+3)host
+- 도메인명 또는 IP주소를 직접 사용가능
+
+4)port
+- 접속 포트
+
+5)path
+- 리소스 경로(path), 계층적 구조
+
+6)query
+
+- key=value 형태
+- ?로 시작,&로 추가 가능
+
+7)fragment
+
+- html 내부 북마크 등에 사용
+- 서버에 전송하는 정보 아님
+
+# 2. 웹 브라우저 요청 흐름
+
+![image](https://user-images.githubusercontent.com/109513458/180635671-c026bfac-f904-41ea-8698-1f317cd76490.png)
+
+- 클라이언트-> 서버
+
+![image](https://user-images.githubusercontent.com/109513458/180635680-97b3ba73-6363-4575-ac75-9dd8a5b3bd85.png)
+
+- 서버 -> 클라이언트
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
