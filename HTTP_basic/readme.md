@@ -1,8 +1,9 @@
 # 0. 목차
 
-[1. 인터넷 네트워크 - IP,TCP,PORT,DNS](https://github.com/MJ054/HTML_study/tree/main/HTTP_basic#1-%EC%9D%B8%ED%84%B0%EB%84%B7-%ED%86%B5%EC%8B%A0)<br/>
-[2. URI와 웹 브라우저 요청 흐름](https://github.com/MJ054/HTML_study/tree/main/HTTP_basic#1-uriuniform-resource-identifier)<br/>
-[3. HTTP]()
+[1. 인터넷 네트워크 - IP,TCP,PORT,DNS](https://github.com/MJ054/HTML_study/tree/main/HTTP_basic#1-%EC%9D%B8%ED%84%B0%EB%84%B7-%ED%86%B5%EC%8B%A0)<br/><br/>
+[2. URI와 웹 브라우저 요청 흐름](https://github.com/MJ054/HTML_study/tree/main/HTTP_basic#1-uriuniform-resource-identifier)<br/><br/>
+[3. HTTP]()<br/><br/>
+[4. HTTP 메서드]()
 
 
 
@@ -124,8 +125,48 @@
 
 - 서버 -> 클라이언트
 
+------------
 
 
+# 1. HTTP
+- Hyper Text Transfer Protocol
+
+## 1.1. 특징
+### 1.1.1. 클라이언트 서버 구조
+- 클라이언트는 서버에 요청을 보내고, 서버가 요청에 대한 결과를 만들어서 응답.
+- 개념적 분리 중요. 서버는 비즈니스 로직, Data 집중. 클라이언트는 UI, 사용성 집중. 이로써 독립적 진화가 가능하다.
+### 1.1.2. 무상태 프로토콜(스테이스리스), 비연결성
+1) 무상태 프로토콜
+ - 서버가 클라이언트의 상태를 보존X
+ - 장점: 서버 확장성이 높음(스케일 아웃-수평확장)
+ - 단점: 클라이언트가 추가 데이터 전송
+2) 비연결성
+- HTTP는 기본이 연결을 유지하지 않는 모델.
+- 장점: 서버 자원을 매우 효율적으로 사용 가능.
+- 한계: TCP/IP 연결을 새로 맺어야함
+        수많은 자원이 함꼐 다운로드
+3) 극복: HTTP 지속 연결
+- 완벽한 HTML을 받을 때까지 지속연결 유지
+### 1.1.3. HTTP 메시지
+
+![image](https://user-images.githubusercontent.com/109513458/180673250-ded923a1-fd02-4efd-8b92-9963903366fa.png)
+
+- HTTP 헤더: HTTP 전송에 필요한 모든 부가정보
+- 메시지 바디: 실제 전송할 데이터
+
+1) 요청 메시지
+
+![image](https://user-images.githubusercontent.com/109513458/180673291-ae3311e3-ab5d-4a22-961c-37c2cec4a8c1.png)
+
+   
+2) 응답메시지
+
+![image](https://user-images.githubusercontent.com/109513458/180673497-a59d6bf8-f800-4839-9f7d-210637992d0d.png)
+
+
+
+### 1.1.4. 단순함, 확장 
+- HTTP는 단순하다.
 
 
 
