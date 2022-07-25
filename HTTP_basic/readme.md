@@ -2,7 +2,7 @@
 
 [1. 인터넷 네트워크 - IP,TCP,PORT,DNS](https://github.com/MJ054/HTML_study/tree/main/HTTP_basic#1-%EC%9D%B8%ED%84%B0%EB%84%B7-%ED%86%B5%EC%8B%A0)<br/><br/>
 [2. URI와 웹 브라우저 요청 흐름](https://github.com/MJ054/HTML_study/tree/main/HTTP_basic#1-uriuniform-resource-identifier)<br/><br/>
-[3. HTTP]()<br/><br/>
+[3. HTTP](https://github.com/MJ054/HTML_study/blob/main/HTTP_basic/readme.md#1-http)<br/><br/>
 [4. HTTP 메서드]()
 
 
